@@ -1,10 +1,10 @@
 
 
 
- # dsd
+ # Readme
 
  ## Description
- **gfrgr**
+ **This project is creating Readme, in which user input the information about the Project.**
 
 
  ## Table of Contents 
@@ -22,25 +22,25 @@
  * [Questions](#Questions)
 
  ## Installation
-   hth
+   You need to Clone the Respository on your local and install Node module.
 
  ## LanguagesUsed:
-   HTML
+   
 
  ## TechnologiesUsed:
-    BootStrap
+  
 
 
  ## UserStory
  As a User </br>
-  dbjsbfj
+  I want to create a Good Readme that can be used for any project. Basically it should just have template and input will be given by user.
 
 
  ## License
-​  This project is licensed under the [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) license.
+​  This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
 
  ## Contributing
-​   The dsd Project has 3 contributors.
+​   The Readme Project has 1 contributors.
 ​
  ## Tests 
    To run tests, run the following command:<br>
@@ -56,7 +56,7 @@
 
 
  ## Questions
-   If you have any questions, contact me at gmail.com </br>
+   If you have any questions, contact me at gupta.ria100@gmail.com </br>
    My Github https://github.com/guptaria
                 
 

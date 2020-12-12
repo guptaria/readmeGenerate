@@ -31,7 +31,7 @@ let createIndexTemplate = (project_name, description, installation, languages, T
    ${languages}
 
  ## TechnologiesUsed:
-   ${Technology}
+  ${Technology}
 
 
  ## UserStory
