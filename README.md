@@ -1,7 +1,7 @@
 
 
 
- # Readme
+ # Readme   [![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)
 
  ## Description
  **This project is creating Readme, in which user input the information about the Project.**
@@ -25,10 +25,10 @@
    You need to Clone the Respository on your local and install Node module.
 
  ## LanguagesUsed:
-   
+   javaScript
 
  ## TechnologiesUsed:
-  
+  None
 
 
  ## UserStory
@@ -37,7 +37,7 @@
 
 
  ## License
-​  This project is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
+​  This project is licensed under the [![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/) license.
 
  ## Contributing
 ​   The Readme Project has 1 contributors.
@@ -50,7 +50,7 @@
   ![](Assets/screenshot1.png)
 
 
- ## ResourceReffered
+ ## ResourceReferred
  [For other things https://dev.to/charalambosioannou/create-a-dynamic-github-profile-readme-il5 <br>
  [For concepts] https://dev.to/hemant/i-rebuilt-my-github-profile-and-made-it-dynamic-2m6c
 

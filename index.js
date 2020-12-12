@@ -1,10 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-let createIndexTemplate = (project_name, description, installation, languages, Technology, UserStory, license, contributors, email) => {
+let createIndexTemplate = (projectName, description, installation, languages, technology, userStory, license, contributors, email) => {
   return `
 
 
- # ${project_name}
+ # ${projectName}   ${license}
 
  ## Description
  **${description}**
@@ -31,19 +31,19 @@ let createIndexTemplate = (project_name, description, installation, languages, T
    ${languages}
 
  ## TechnologiesUsed:
-  ${Technology}
+  ${technology}
 
 
  ## UserStory
  As a User </br>
-  ${UserStory}
+  ${userStory}
 
 
  ## License
 ​  This project is licensed under the ${license} license.
 
  ## Contributing
-​   The ${project_name} Project has ${contributors} contributors.
+​   The ${projectName} Project has ${contributors} contributors.
 ​
  ## Tests 
    To run tests, run the following command:<br>
@@ -54,7 +54,7 @@ let createIndexTemplate = (project_name, description, installation, languages, T
   ![](Assets/screenshot1.png)
 
 
- ## ResourceReffered
+ ## ResourceReferred
  [For other things https://dev.to/charalambosioannou/create-a-dynamic-github-profile-readme-il5 <br>
  [For concepts] https://dev.to/hemant/i-rebuilt-my-github-profile-and-made-it-dynamic-2m6c
 
@@ -70,22 +70,23 @@ let createIndexTemplate = (project_name, description, installation, languages, T
 var questions = [
   {
     type: 'input',
-    name: 'project_name',
+    name: 'projectName',
     message: "What's your project name?",
+    default: "Readme",
 
   },
   {
     type: 'input',
     name: 'description',
     message: "Describe your project?",
-
+    default: "This project is creating Readme, in which user input the information about the Project."
   },
 
   {
     type: 'input',
     name: 'installation',
     message: "What is required for installation?",
-
+    default: "You need to Clone the Respository on your local and install Node module."
   },
 
   {
@@ -96,14 +97,15 @@ var questions = [
   },
   {
     type: 'checkbox',
-    name: 'Technology',
+    name: 'technology',
     message: "which are the Technology you have used for this project?",
     choices: [" BootStrap", "Api", "Ajax", "Local Storage", "None"]
   },
   {
     type: 'input',
-    name: 'UserStory',
+    name: 'userStory',
     message: "What is the user story?",
+    default: "I want to create a Good Readme that can be used for any project. Basically it should just have template and input will be given by user."
 
   },
   {
@@ -144,9 +146,9 @@ inquirer
   .prompt(questions)
   .then(answers => {
     //    console.log(answers);
-    let { project_name, description, installation, languages, Technology, UserStory, license, contributors, email } = answers;
+    let { projectName, description, installation, languages, technology, userStory, license, contributors, email } = answers;
      license=createBadge(license);
-    const template = createIndexTemplate(project_name, description, installation, languages, Technology, UserStory, license, contributors, email);
+    const template = createIndexTemplate(projectName, description, installation, languages, technology, userStory, license, contributors, email);
     fs.writeFile('README.md', template, (err) => {
       if (err) throw err;
       console.log('The file has been saved!');
