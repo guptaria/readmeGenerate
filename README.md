@@ -1,8 +1,9 @@
 
- # Readme 
+[![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC)
+ # Readme
 
  ## Description
- **fgfeg**
+ **dynamic readme**
 
 
  ## Table of Contents 
@@ -20,7 +21,7 @@
  * [Questions](#Questions)
 
  ## Installation
-   rfr
+   inquirer
 
  ## LanguagesUsed:
    HTML
@@ -30,16 +31,15 @@
 
 
  ## UserStory
-    As a User </br>
-   kkkkk
+ As a User </br>
+  ddff
 
 
  ## License
-​   This project is licensed under the  ISC license.
-
+​  This project is licensed under the  ISC license.
 
  ## Contributing
-​   The Readme  Project has 9 contributors.
+​   The Readme Project has ffff contributors.
 ​
  ## Tests 
    To run tests, run the following command:<br>
@@ -56,7 +56,7 @@
 
 
  ## Questions
-   If you have any questions, contact me at girl12@gmail.com </br>
+   If you have any questions, contact me at  </br>
    My Github https://github.com/guptaria
                 
 

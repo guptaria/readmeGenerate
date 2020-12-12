@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const fs =require("fs");
 let createIndexTemplate =(project_name,description,installation,languages,Technology,UserStory,License,contributors,email) => {
 return `
+[![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC)
  # ${project_name}
 
  ## Description
@@ -33,13 +34,12 @@ return `
 
 
  ## UserStory
-  As a User </br>
+ As a User </br>
   ${UserStory}
 
 
  ## License
-​   This project is licensed under the ${License} license.
-
+​  This project is licensed under the ${License} license.
 
  ## Contributing
 ​   The ${project_name} Project has ${contributors} contributors.
