@@ -1,8 +1,9 @@
 const inquirer = require("inquirer");
-const fs =require("fs");
-let createIndexTemplate =(project_name,description,installation,languages,Technology,UserStory,License,contributors,email) => {
-return `
-[![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC)
+const fs = require("fs");
+let createIndexTemplate = (project_name, description, installation, languages, Technology, UserStory, license, contributors, email) => {
+  return `
+
+
  # ${project_name}
 
  ## Description
@@ -39,14 +40,14 @@ return `
 
 
  ## License
-​  This project is licensed under the ${License} license.
+​  This project is licensed under the ${license} license.
 
  ## Contributing
 ​   The ${project_name} Project has ${contributors} contributors.
 ​
  ## Tests 
    To run tests, run the following command:<br>
-    npm i
+    \`\`\`npm i\`\`\`\
 
 
  ## Final Result
@@ -67,78 +68,89 @@ return `
 }
 
 var questions = [
-    {
-      type: 'input',
-      name: 'project_name',
-      message: "What's your project name?",
-      
-    }, 
-    {
-      type: 'input',
-      name: 'description',
-      message: "Describe your project?",
-      
-    },
+  {
+    type: 'input',
+    name: 'project_name',
+    message: "What's your project name?",
 
-    {
-      type: 'input',
-      name: 'installation',
-      message: "What is required for installation?",
-      
-    },
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: "Describe your project?",
 
-    {
-      type: 'checkbox',
-      name: 'languages',
-      message: "which are the languages you have used for this project?",
-      choices:["HTML" ,"Css","javaScript" , "React ","None"]
-    },
-    {
-      type: 'checkbox',
-      name: 'Technology',
-      message: "which are the Technology you have used for this project?",
-      choices:[" BootStrap" ,"Api" ,"Ajax", "Local Storage" ,"None"]
-    },
-    {
-      type: 'input',
-      name: 'UserStory',
-      message: "What is the user story?",
-      
-    },
-    {
-      type: 'list',
-      name: 'License',
-      message: "What is the licence of the project?",
-      choices:[" ISC" ,"MIT" , "PDDL" , "Unlicense"]
-    },
-    {
-      type: 'input',
-      name: 'contributors',
-      message: "How many do you have in your team for this project?",
-      
-    },
-    {
-      type: 'input',
-      name: 'email',
-      message: "What is the your email?",
-      
-    },
+  },
+
+  {
+    type: 'input',
+    name: 'installation',
+    message: "What is required for installation?",
+
+  },
+
+  {
+    type: 'checkbox',
+    name: 'languages',
+    message: "which are the languages you have used for this project?",
+    choices: ["HTML", "Css", "javaScript", "React ", "None"]
+  },
+  {
+    type: 'checkbox',
+    name: 'Technology',
+    message: "which are the Technology you have used for this project?",
+    choices: [" BootStrap", "Api", "Ajax", "Local Storage", "None"]
+  },
+  {
+    type: 'input',
+    name: 'UserStory',
+    message: "What is the user story?",
+
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: "What is the licence of the project?",
+    choices: [" ISC", "MIT", "PDDL", "Unlicense"]
+  },
+  {
+    type: 'input',
+    name: 'contributors',
+    message: "How many do you have in your team for this project?",
+
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: "What is the your email?",
+
+  },
 ];
 
-
-
+const createBadge = (license) => {
+  if (license === "MIT") {
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  } else if (license === "ISC") {
+    return `[![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC)`
+  } else if (license === "PDDL") {
+    return `[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)`
+  }
+  else {
+    return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
+  }
+}
 
 
 inquirer
   .prompt(questions)
   .then(answers => {
-//    console.log(answers);
-const {project_name,description,installation,languages,Technology,UserStory,License,contributors,email} = answers;
-const template=createIndexTemplate(project_name,description,installation,languages,Technology,UserStory,License,contributors,email);
-fs.writeFile('README.md', template, (err) => {
-    if (err) throw err;
-    console.log('The file has been saved!');
-});
+    //    console.log(answers);
+    let { project_name, description, installation, languages, Technology, UserStory, license, contributors, email } = answers;
+     license=createBadge(license);
+    const template = createIndexTemplate(project_name, description, installation, languages, Technology, UserStory, license, contributors, email);
+    fs.writeFile('README.md', template, (err) => {
+      if (err) throw err;
+      console.log('The file has been saved!');
+    });
   })
   .catch(error => {
     console.log(error);
@@ -150,4 +162,3 @@ fs.writeFile('README.md', template, (err) => {
 
 
 
-  
