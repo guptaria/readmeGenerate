@@ -51,7 +51,9 @@ let createIndexTemplate = (projectName, description, installation, languages, te
 
 
  ## Final Result
-  ![](Assets/screenshot1.png)
+  ![](assets/images/screen1.png)
+  ![](assets/images/screen2.png)
+  ![](assets/images/screen3.png)
 
 
  ## ResourceReferred
@@ -93,7 +95,7 @@ var questions = [
     type: 'checkbox',
     name: 'languages',
     message: "which are the languages you have used for this project?",
-    choices: ["HTML", "Css", "javaScript", "React ", "None"]
+    choices: ["HTML", "Css", "JavaScript", "React ", "None"]
   },
   {
     type: 'checkbox',
