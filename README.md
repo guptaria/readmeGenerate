@@ -1,7 +1,7 @@
 
 
 
- # Readme   [![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)
+ # Readme   [![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
  ## Description
  **This project is creating Readme, in which user input the information about the Project.**
@@ -25,7 +25,7 @@
    You need to Clone the Respository on your local and install Node module.
 
  ## LanguagesUsed:
-   javaScript
+   JavaScript
 
  ## TechnologiesUsed:
   None
@@ -37,7 +37,7 @@
 
 
  ## License
-​  This project is licensed under the [![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/) license.
+​  This project is licensed under the [![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC) license.
 
  ## Contributing
 ​   The Readme Project has 1 contributors.
@@ -56,9 +56,11 @@
  [For other things https://dev.to/charalambosioannou/create-a-dynamic-github-profile-readme-il5 <br>
  [For concepts] https://dev.to/hemant/i-rebuilt-my-github-profile-and-made-it-dynamic-2m6c
 
+ ## Watche the Video 
+ [![Watch the video] <iframe src="https://drive.google.com/file/d/1Xd7t6BjUG1tExpY9Xecx8aSlEDrlrGYr/preview" width="640" height="480"></iframe>
 
  ## Questions
-   If you have any questions, contact me at gupta.ria100@gmail.com </br>
+   If you have any questions, contact me at gmail.com </br>
    My Github https://github.com/guptaria
                 
 
