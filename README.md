@@ -40,7 +40,7 @@
 ​  This project is licensed under the [![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC) license.
 
  ## Contributing
-​   The Readme Project has 1 contributors.
+​   The Readme Project has 2 contributors.
 ​
  ## Tests 
    To run tests, run the following command:<br>
@@ -56,8 +56,8 @@
  [For other things https://dev.to/charalambosioannou/create-a-dynamic-github-profile-readme-il5 <br>
  [For concepts] https://dev.to/hemant/i-rebuilt-my-github-profile-and-made-it-dynamic-2m6c
 
- ## Watche the Video 
- [![Watch the video] <iframe src="https://drive.google.com/file/d/1Xd7t6BjUG1tExpY9Xecx8aSlEDrlrGYr/preview" width="640" height="480"></iframe>
+ ## Video
+ ![Watch the video](https://drive.google.com/file/d/1Xd7t6BjUG1tExpY9Xecx8aSlEDrlrGYr/preview)
 
  ## Questions
    If you have any questions, contact me at gmail.com </br>
