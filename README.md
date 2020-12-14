@@ -1,7 +1,7 @@
 
 
 
- # Readme   [![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC)
+ # Readme   [![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)
 
  ## Description
  **This project is creating Readme, in which user input the information about the Project.**
@@ -37,7 +37,7 @@
 
 
  ## License
-​  This project is licensed under the [![License:ISC](https://img.shields.io/badge/License-$ISC-blue.svg)](https://opensource.org/licenses/ISC) license.
+​  This project is licensed under the [![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/) license.
 
  ## Contributing
 ​   The Readme Project has 1 contributors.
@@ -53,11 +53,12 @@
 
 
  ## ResourceReferred
- [For other things https://dev.to/charalambosioannou/create-a-dynamic-github-profile-readme-il5 <br>
+ [For Badges] https://www.freecodecamp.org/news/how-to-use-badges-to-stop-feeling-like-a-noob-d4e6600d37d2/ <br>
  [For concepts] https://dev.to/hemant/i-rebuilt-my-github-profile-and-made-it-dynamic-2m6c
 
  ## Watch the Video
- [![] <iframe src=“https://drive.google.com/file/d/1Xd7t6BjUG1tExpY9Xecx8aSlEDrlrGYr/preview” width=“640" height=“480”></iframe>
+ [Demo](https://drive.google.com/file/d/1YPcLyJNYmix7Ci-8cV0hKVWhpFIXCJfb/preview)
+ 
  ## Questions
    If you have any questions, contact me at gupta.ria100@gmail.com </br>
    My Github https://github.com/guptaria

@@ -57,11 +57,12 @@ let createIndexTemplate = (projectName, description, installation, languages, te
 
 
  ## ResourceReferred
- [For other things https://dev.to/charalambosioannou/create-a-dynamic-github-profile-readme-il5 <br>
+ [For Badges] https://www.freecodecamp.org/news/how-to-use-badges-to-stop-feeling-like-a-noob-d4e6600d37d2/ <br>
  [For concepts] https://dev.to/hemant/i-rebuilt-my-github-profile-and-made-it-dynamic-2m6c
 
  ## Watch the Video
- [![] <iframe src=“https://drive.google.com/file/d/1Xd7t6BjUG1tExpY9Xecx8aSlEDrlrGYr/preview” width=“640" height=“480”></iframe>
+ [Demo](https://drive.google.com/file/d/1YPcLyJNYmix7Ci-8cV0hKVWhpFIXCJfb/preview)
+ 
  ## Questions
    If you have any questions, contact me at ${email} </br>
    My Github https://github.com/guptaria
