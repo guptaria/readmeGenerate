@@ -57,7 +57,8 @@
  [For concepts] https://dev.to/hemant/i-rebuilt-my-github-profile-and-made-it-dynamic-2m6c
 
  ## Watch the Video
- [Demo](https://drive.google.com/file/d/1YPcLyJNYmix7Ci-8cV0hKVWhpFIXCJfb/preview)
+ ![Demo](https://drive.google.com/file/d/1YPcLyJNYmix7Ci-8cV0hKVWhpFIXCJfb/preview)
+ 
  
  ## Questions
    If you have any questions, contact me at gupta.ria100@gmail.com </br>
